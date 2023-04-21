@@ -1,0 +1,22 @@
+/* Estilos para la sección de libros */
+.carousel-cell {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    margin-right: 10px;
+    counter-increment: carousel-cell;
+}
+
+.carousel-cell img:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.carousel-cell img {
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
