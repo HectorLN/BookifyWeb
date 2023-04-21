@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi Dashboard</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-ULeS/C0V7RiGrvT8l/QGnHJiPnfJu+cDvYwz/t8F1LQxzsxumtP9oRUf+jc4sxDsVnOHsBy1GQI3YbTfuTULQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="header">
+		<img id="open-sidebar" src="assets/img/iconomenu.png" alt="Abrir sidebar">
+			<h1>Bookify</h1>	
+		</div>
+	</div>
+	<div class="sidebar">
+		<ul>
+		  <h1>Bookify</h1>
+		  <li><a href="#">Inicio</a></li>
+		  <li><a href="categories.html">Categorías</a></li>
+		  <li><a href="login.html">Cerrar sesión</a></li>
+		  <li>
+			<form action="#" method="get">
+			  <input type="text" name="search" placeholder="Buscar...">
+			  <button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		  </li>
+		</ul>
+		<img id="close-sidebar" src="assets/img/cerrarmenu.png" alt="Cerrar sidebar">
+	</div>
+	<div class="main">
+		<div class="main sidebar-closed">
+			<div class="book-section">
+			<h2>Libros destacados</h2>
+				<div class="book-slider">
+			  	<img src="./assets/img/op.jpg" alt="Libro 1" onclick="window.location.href='books.html'">
+			  	<img src="./assets/img/db.jpg" alt="Libro 2">
+			  	<img src="./assets/img/naruto.jpg" alt="Libro 3">
+			  	<img src="./assets/img/op.jpg" alt="Libro 4">
+			  	<img src="./assets/img/db.jpg" alt="Libro 5">
+			  	<img src="./assets/img/op.jpg" alt="Libro 1" onclick="window.location.href='books.html'">
+			  	<img src="./assets/img/db.jpg" alt="Libro 2">
+			  	<img src="./assets/img/naruto.jpg" alt="Libro 3">
+			  	<img src="./assets/img/op.jpg" alt="Libro 4">
+			  	<img src="./assets/img/db.jpg" alt="Libro 5">
+				</div>
+
+			</div>
+			<div class="category-section">
+			<h2>Categorías</h2>
+			<ul>
+				<li><a href="#">Ficción</a></li>
+				<li><a href="#">No ficción</a></li>
+				<li><a href="#">Romance</a></li>
+				<li><a href="#">Ciencia ficción</a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+<footer>
+	<div class="container">
+	  <div class="footer-content">
+		<h3>Bookify</h3>
+		<p>Todos los derechos reservados &copy; 2023</p>
+	  </div>
+	</div>
+  </footer>
+</html>
